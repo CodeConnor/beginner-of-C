@@ -1,24 +1,24 @@
 
 
-//´òÓ¡hello world!
+//æ‰“å°hello world!
 //#include <stdio.h>
 //int main()
 //{
 //
-//	printf("hello world!\n");//»»ĞĞ£º\n
+//	printf("hello world!\n");//æ¢è¡Œï¼š\n
 //
-//	printf("%d\n",100);//´òÓ¡ÕûÊı
+//	printf("%d\n",100);//æ‰“å°æ•´æ•°
 //
 //	return 0;
 //}
 
 
-////¼ÆËã¸÷Êı¾İÀàĞÍ´óĞ¡
+////è®¡ç®—å„æ•°æ®ç±»å‹å¤§å°
 //#include <stdio.h>
 //int main()
 //{
 //
-//	printf("size_char = %d\n", sizeof(char));//sizeof£º¼ÆËãÊı¾İÀàĞÍ»òÕß±äÁ¿ËùÕ¼¿Õ¼ä´óĞ¡£¬µ¥Î»ÊÇ×Ö½Úbyte
+//	printf("size_char = %d\n", sizeof(char));//sizeofï¼šè®¡ç®—æ•°æ®ç±»å‹æˆ–è€…å˜é‡æ‰€å ç©ºé—´å¤§å°ï¼Œå•ä½æ˜¯å­—èŠ‚byte
 //	printf("size_short = %d\n", sizeof(short));
 //	printf("size_int = %d\n", sizeof(int));
 //	printf("size_long = %d\n", sizeof(long));
@@ -31,35 +31,35 @@
 
 
 
-////±äÁ¿
+////å˜é‡
 //#include <stdio.h>
 //int main()
 //{
 //
-//	//´´½¨Á½¸ö±äÁ¿£¬ÔÙ·Ö±ğ¸øÁ½¸ö±äÁ¿¸³Öµ
+//	//åˆ›å»ºä¸¤ä¸ªå˜é‡ï¼Œå†åˆ†åˆ«ç»™ä¸¤ä¸ªå˜é‡èµ‹å€¼
 //	int age = 21;
 //	float weight = 77.7;
 //
-//	//¸Ä±ä±äÁ¿µÄÖµ
+//	//æ”¹å˜å˜é‡çš„å€¼
 //	age = age + 1;
 //	weight = weight - 5;
 //
 //	printf("age = %d\n", age);
-//	printf("weight = %f\n", weight);//float¶ÔÓ¦%f
+//	printf("weight = %f\n", weight);//floatå¯¹åº”%f
 //
 //	return 0;
 //}
 
 
 
-////±äÁ¿³åÍ»
+////å˜é‡å†²çª
 //#include <stdio.h>
 //
-//int a = 1;//È«¾Ö±äÁ¿
+//int a = 1;//å…¨å±€å˜é‡
 //
 //int main()
 //{
-//	int a = 10;//¾Ö²¿±äÁ¿
+//	int a = 10;//å±€éƒ¨å˜é‡
 //
 //	printf("%d\n",a);
 //
@@ -68,8 +68,8 @@
 
 
 
-//ÇóºÍ
-#define _CRT_SECURE_NO_WARNINGS 1//½â¾övsÈÏÎªscanfº¯Êı²»°²È«¶øÎŞ·¨µ÷ÓÃµÄ´íÎó
+//æ±‚å’Œ
+#define _CRT_SECURE_NO_WARNINGS 1//è§£å†³vsè®¤ä¸ºscanfå‡½æ•°ä¸å®‰å…¨è€Œæ— æ³•è°ƒç”¨çš„é”™è¯¯
 #include <stdio.h>
 
 int main()
@@ -79,11 +79,12 @@ int main()
 	int b = 0;
 	int sum = 0;
 
-	scanf("%d %d", &a, &b);//ÊäÈëaºÍbµÄÖµ
+	scanf("%d %d", &a, &b);//è¾“å…¥aå’Œbçš„å€¼
 	sum = a + b;
 	printf("sum = %d\n", sum);
 
 	//gitee test1111111111111
+    //gitee  test2222222222222
 
 	return 0;
 }
